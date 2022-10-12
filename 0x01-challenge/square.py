@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """class square"""
 
+
 class Square():
     """performs simple geometry"""
     width = 0
@@ -19,6 +20,7 @@ class Square():
 
     def __str__(self):
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 
